@@ -10,7 +10,7 @@ After your function finds the needle it should return a message (as a string) th
 
 function findNeedle(haystack) {
     // your code here
-    for (let i = 0; i < haystack.length; i++) {
+    for (let i = 0; i < haystack.length; i++) { // intera sobre haystack para buscar la aguja
         if(haystack[i] === "needle") {
             return "found the needle at position " + i;
         }
