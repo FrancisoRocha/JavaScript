@@ -17,4 +17,4 @@ function areYouPlayingBanjo(name) {
     }
 }
 
-console.log(areYouPlayingBanjo("ricardo"));
+console.log(areYouPlayingBanjo("ricardo")); // Mensaje log

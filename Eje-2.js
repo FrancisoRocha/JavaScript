@@ -15,11 +15,11 @@ function findNeedle(haystack) {
             return "found the needle at position " + i;
         }
     }
-    return "needle not found";
+    return "needle not found"; // meaning "found the needle at position"
 };
 
 
-const haystackArray = [
+const haystackArray = [ // array of haystack
     "hay", 
     "junk", 
     "hay", 
